@@ -1,0 +1,72 @@
+/* Header.module.css */
+
+.header {
+  padding: 20px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  /* position: sticky;
+  top: 0px;
+  z-index: 1; */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+  border-radius: 50px;
+}
+
+.brand {
+  flex: 1;
+}
+
+.brand h1 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.brand p {
+  margin: 5px 0 0;
+  font-size: 0.8em;
+  opacity: 0.8;
+  margin-left: 20px;
+}
+
+nav {
+  flex: 1;
+}
+
+.navList {
+  list-style: repeating-linear-gradient(
+    45deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );
+  padding: 0;
+  margin: 0;
+}
+
+.navItem {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease-in-out;
+}
+.navItem > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease-in-out;
+}
+
+.navItem:hover {
+  color: #ffd700; /* Change to your desired highlight color */
+}

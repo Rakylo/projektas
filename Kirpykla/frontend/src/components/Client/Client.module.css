@@ -1,0 +1,10 @@
+.deleteButton {
+  background-color: red;
+  border-radius: 15px;
+  margin: 5px;
+}
+.updateButton {
+  background-color: green;
+  border-radius: 15px;
+  margin: 5px;
+}
